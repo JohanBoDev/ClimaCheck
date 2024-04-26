@@ -1,7 +1,7 @@
 # Web-Check: Aplicacion del Clima en tiempo real
 
 ![image](https://github.com/JohanBoDev/AppClima/assets/127339175/a5351d79-9cbb-4b4f-b5e0-9c0755cbdf77)
-")
+
 
 **Web-Check** es una aplicación web enfocada en brindar información meteorológica precisa y actualizada de manera estética y funcional. Desarrollada con tecnologías punteras como HTML5, CSS3, JavaScript y el framework de Tailwind CSS, esta aplicación no solo proporciona datos del clima, sino que también mejora la experiencia del usuario con un diseño elegante y responsivo.
 
