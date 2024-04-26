@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+   background-image: url(assets/img/tierra.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+section{
+
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.492);
+
+}
+
+
+
+
+.input{
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #a6a6a62b;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+/* Estilos base para los modales */
+.modal {
+    overflow: hidden;
+    transition: max-height 1s ease-in-out, transform 1s ease-in-out;
+  }
+  
+  /* Clase para ocultar el modal reduciendo su max-height */
+  .modal-hide {
+    transform: translateY(-450%); /* O cualquier otro efecto de salida que prefieras */
+    overflow: hidden; /* asegúrate de que el elemento está fuera de la pantalla */
+    pointer-events: none; /* Evita clics durante la transición */
+  }
+  
+  /* Clase para mostrar el modal aumentando su max-height */
+  .modal-show {
+    max-height: 600px; /* Un valor alto para cubrir el contenido, pero no 'auto' */
+    pointer-events: all;
+    margin-top: -80px; /* O cualquier otro efecto de entrada que prefieras */
+  }
+  
+
+  @media screen and (max-width: 600px){
+section{
+    width: 90%;
+    margin: 0 20px;
+ 
+  }
+  .input{
+    width: calc(100% - 10px);
+  }
+
+ 
+
+
+    h1{
+      font-size: 1.5em;
+    }
+    h2{
+      font-size: 1.2em;
+    }
+    p{
+      font-size: 1em;
+    }
+    span{
+      font-size: .9em;
+    }
+  } 
