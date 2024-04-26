@@ -22,7 +22,7 @@
        
       <div class="modal block" id="modal-busqueda">
         <form  class="flex items-center gap-x-2 pr-5 md:gap-x-5  " >
-          <input class="input mt-2" placeholder="Introduce una Ciudad..." type="text" name="ciudad" id="nombre-ciudad" />
+          <input class="input mt-2" placeholder="Introduce una Ciudad..." autocomplete="off" type="text" name="ciudad" id="nombre-ciudad" />
           <button onclick="fetchWeather(), setCityBackground()" id="boton-busqueda" type="submit" class="size-9 px-1 mt-2 md:size-10 bg-white/10 flex items-center justify-center  rounded-full  hover:bg-white/70"><img class="icono-busqueda" src="assets/img/Icono-busqueda.svg" alt=""></button>
         </form>
       </div>
