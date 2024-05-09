@@ -12,11 +12,3 @@
 - **Interfaz Responsiva**: Adaptabilidad a cualquier tamaño de pantalla, proporcionando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 - **Fácil Navegación**: La interfaz de usuario simplificada permite una navegación intuitiva y un acceso rápido a la información del clima.
 
-## Empezando:
-
-Para empezar a utilizar Web-Check en tu entorno local, sigue estos pasos:
-
-```bash
-git clone https://github.com/tu-usuario/web-check.git
-cd web-check
-# abre index.html en tu navegador
