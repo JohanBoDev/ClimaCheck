@@ -1,6 +1,7 @@
 # Web-Check: Aplicacion del Clima en tiempo real
 
-![Web-Check Interface](/path/to/your/image.jpg "Web-Check: Clima en tiempo real para París")
+![image](https://github.com/JohanBoDev/AppClima/assets/127339175/a5351d79-9cbb-4b4f-b5e0-9c0755cbdf77)
+
 
 **Web-Check** es una aplicación web enfocada en brindar información meteorológica precisa y actualizada de manera estética y funcional. Desarrollada con tecnologías punteras como HTML5, CSS3, JavaScript y el framework de Tailwind CSS, esta aplicación no solo proporciona datos del clima, sino que también mejora la experiencia del usuario con un diseño elegante y responsivo.
 
@@ -11,11 +12,3 @@
 - **Interfaz Responsiva**: Adaptabilidad a cualquier tamaño de pantalla, proporcionando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
 - **Fácil Navegación**: La interfaz de usuario simplificada permite una navegación intuitiva y un acceso rápido a la información del clima.
 
-## Empezando:
-
-Para empezar a utilizar Web-Check en tu entorno local, sigue estos pasos:
-
-```bash
-git clone https://github.com/tu-usuario/web-check.git
-cd web-check
-# abre index.html en tu navegador
