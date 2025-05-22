@@ -22,18 +22,18 @@
        
       <div class="modal block" id="modal-busqueda">
         <form  class="flex items-center gap-x-2 pr-5 md:gap-x-5  " >
-          <input class="input mt-2" placeholder="Introduce una Ciudad..." type="text" name="ciudad" id="nombre-ciudad" />
-          <button onclick="fetchWeather(), setCityBackground()" id="boton-busqueda" type="submit" class="size-9 px-1 mt-2 md:size-10 bg-white/10 flex items-center justify-center  rounded-full  hover:bg-white/70"><img class="icono-busqueda" src="assets/img/Icono-busqueda.svg" alt=""></button>
+          <input class="input mb-5" placeholder="Introduce una Ciudad..." type="text" name="ciudad" id="nombre-ciudad" />
+          <button onclick="fetchWeather(), setCityBackground()" id="boton-busqueda" type="submit" class="size-9 px-1  mb-4 md:size-10 bg-white/10 flex items-center justify-center  rounded-full  hover:bg-white/70"><img class="icono-busqueda" src="assets/img/Icono-busqueda.svg" alt=""></button>
         </form>
       </div>
      
-      <div class="flex-col justify-center items-center modal  flex"  id="modal-resultado">
+      <div class="flex-col justify-center items-center modal flex"  id="modal-resultado">
         <h2 class="text-4xl mt-10 text-white/70" id="nombre-ciudad-mostrar"></h2>
         <img src="assets/img/imagen_calor_extremo.svg" class="size-32 mt-5" id="weather-image" alt="">
         <span class="text-6xl mt-5 font-bold tracking-widest text-white/80" id="temp"></span>
 
         <p class="text-4xl mb-5 mt-5 text-white/70" id="desc"></p>
-        <article class="flex w-full ">
+        <article class="flex w-full overflow-scroll">
         <div class="w-[100%] border-t border-white border-r flex justify-center  items-center gap-x-4 p-4" >
             <span class="material-symbols-outlined text-4xl text-white">
               
